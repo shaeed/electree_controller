@@ -1,0 +1,15 @@
+_relayProviderStatus - Change the given relay status (Switch on or off, change the actual gpio pins)
+relayStatus(id) - Get current relay staus (True when it is ON)
+relayStatus(id, true/false) - Change the relay state, make it ON or OFF
+relaySync - Make all relay ON or OFF [Deleted]
+_relayBoot() - Boot time initialization, read the previous state and set them if required.
+_relayConfigure - Set the GPIO as output.
+
+
+relayMQTT - Send switch status when connected to mqtt
+relayMQTT(id) - Send switch status on mqtt
+
+
+
+
+topic.c_str() - Convert String to char array
